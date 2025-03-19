@@ -1,10 +1,6 @@
-const Message = require("../models/Message");
-const User = require("../models/User");
+const Message = require("../models/message");
+const User = require("../models/user");
 
-/**
- * @desc Send a message
- * @route POST /api/messages
- */
 exports.sendMessage = async (req, res) => {
     try {
         const { sender, receiver, content } = req.body;
