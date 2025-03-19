@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 const Message = require("../models/message");
-=======
-const Message = require("../models/Message");
->>>>>>> 406e78b0892651fdba9a8083cc635916c5d20aaf
 const User = require("../models/user");
 
 exports.sendMessage = async (req, res) => {
